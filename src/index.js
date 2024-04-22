@@ -5,6 +5,15 @@ import "./index.css";
 
 let name = "manas";
 ReactDom.render(
-  <h1 className="heading">{name}</h1>,
+  <div>
+    <h1 className="heading">{name}</h1>
+    <p1>Web-series</p1>
+    <ol>
+      <li>alpha</li>
+      <li>beta</li>
+
+      <li>{Math.random()}</li>
+    </ol>
+  </div>,
   document.getElementById("root")
 );

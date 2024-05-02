@@ -24,7 +24,6 @@ ReactDom.render(
     {/* <ol>
       <li>alpha</li>
       <li>beta</li>
-
       <li>{Math.random()}</li>
     </ol> */}
     <p1>{greet}</p1>
